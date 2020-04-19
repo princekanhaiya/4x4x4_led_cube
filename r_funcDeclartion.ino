@@ -1,0 +1,83 @@
+////Essential Functions
+//unsigned char inrange(int x, int y, int z);
+//unsigned char getvoxel(int x, int y, int z);
+//void setvoxel(int x, int y, int z);
+//void altervoxel(int x, int y, int z, int state);
+//char byteline (int start, int end);
+//char flipbyte (char byte1);
+//void argorder(int ix1, int ix2, int *ox1, int *ox2);
+//void calculate_cube_corners (vertex pnt[4], vertex center, float size1);
+//void delay_ms(word x);
+//void fill (unsigned char pattern);
+//void setplane (char axis, unsigned char i);
+//void setplane_x (int x);
+//void setplane_y (int y);
+//void setplane_z (int z);
+//void clrplane_x (int x);
+//void clrplane_y (int y);
+//void clrplane_z (int z);
+//void mirror_x (void);
+//void mirror_y (void);
+//void mirror_z (void);
+//void shift (char axis, int direction);
+//word flip4byte (word v);
+//
+////Effect Functions
+//float distance2d (float x1, float y1, float x2, float y2);
+//float distance3d (float x1, float y1, float z1, float x2, float y2, float z2);
+//int effect_telcstairs_do(int x, int val, int delay);
+//vertex point_rotate_around_point (vertex point, vertex center, float rotation_x, float rotation_y, float rotation_z);
+//void aroundEdgeDown(int time);
+//void boingboing(uint16_t iterations, int delay, unsigned char mode, unsigned char drawmode);
+//void box_filled(int x1, int y1, int z1, int x2, int y2, int z2);
+//void box_walls(int x1, int y1, int z1, int x2, int y2, int z2);
+//void box_wireframe(int x1, int y1, int z1, int x2, int y2, int z2);
+//void boxInSpace(int iteration,int time,int noofboxes);
+//void clrvoxel(int x, int y, int z);
+//void draw_cube_wireframe (vertex pnt[8])
+//void draw_positions_axis (char axis, unsigned char positions[16], int invert);
+//void effect_axis_updown_randsuspend (char axis, int delay, int sleep, int invert);
+//void effect_blinky2()
+//void effect_box_woopwoop (int delay, int grow);
+//void effect_boxside_randsend_parallel (char axis, int origin, int delay, int mode);
+//void effect_intro()
+//void effect_loadbar(int delay);
+//void effect_planboing (int plane, int speed);
+//void effect_rain (int iterations);
+//void effect_random_filler (int delay, int state);
+//void effect_random_sparkle (void);
+//void effect_random_sparkle_flash (int iterations, int voxels, int delay);
+//void effect_rotate_random_pixels (int iterations, int delay, int pixels);
+//void effect_telcstairs (int invert, int delay, int val);
+//void effect_wormsqueeze (int size, int axis, int direction, int iterations, int delay);
+//void effect_z_updown (int iterations, int delay);
+//void effect_z_updown_move (unsigned char positions[16], unsigned char destinations[16], char axis);
+//void firework(int i, int j, int time);
+//void flickerOff(int time);
+//void flickerOn(int time);
+//void flpvoxel(int x, int y, int z);
+//void hurricane (void);
+//void hurricane1(void);
+//void hurricane2(void);
+//void line(int x1, int y1, int z1, int x2, int y2, int z2);
+//void line_3d (int x1, int y1, int z1, int x2, int y2, int z2);
+//void line_3d_float (vertex point1, vertex point2);
+//void linespin (int iterations, int delay);
+//void propeller(int time,int mode);
+//void randomBoxWireframe(int iteration, int time);
+//void randomflicker(int time);
+//void randomflicker1(int time1);
+//void randomflicker2(int time1);
+//void randomflicker3(int time1);
+//void randomflickerMulti(int time1);
+//void ripples (int iterations, int delay);
+//void sendplane_rand_z (unsigned char z, int delay, int wait);
+//void sendvoxel_z (unsigned char x, unsigned char y, unsigned char z, int delay);
+//void sidewaves (int iterations, int delay);
+//void sinelines (int iterations, int delay);
+//void space(int iterations);
+//void spheremove (int iterations, int delay);
+//void turnOnAndOffAllByColumnSideways(int time);
+//void turnOnAndOffAllByLayerUpAndDownNotTimed(int x);
+//void zoom_pyramid();
+
